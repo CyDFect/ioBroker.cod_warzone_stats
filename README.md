@@ -16,7 +16,7 @@
 
 This adapter fetches the Call of Duty Warzone stats.
 It is yet possible to get player stats, warzone stats and multiplayer stats.
-Therefor a login on the callofduty.com website needs to be created.
+Therefore a login on the callofduty.com website needs to be created.
 
 ## Changelog
 
