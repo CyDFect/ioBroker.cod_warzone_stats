@@ -1,4 +1,3 @@
-![Logo](admin/cod_warzone_stats.png)
 # ioBroker.cod_warzone_stats
 
 [![NPM version](http://img.shields.io/npm/v/iobroker.cod_warzone_stats.svg)](https://www.npmjs.com/package/iobroker.cod_warzone_stats)
