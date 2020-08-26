@@ -1,0 +1,98 @@
+{
+	"common": {
+		"name": "cod_warzone_stats",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Call of Duty Warzone Stats",
+		"titleLang": {
+			"en": "Call of Duty Warzone Stats",
+			"de": "Call of Duty Warzone Stats",
+			"ru": "Call of Duty Warzone Stats",
+			"pt": "Call of Duty Warzone Stats",
+			"nl": "Call of Duty Warzone Stats",
+			"fr": "Call of Duty Warzone Stats",
+			"it": "Call of Duty Warzone Stats",
+			"es": "Call of Duty Warzone Stats",
+			"pl": "Call of Duty Warzone Stats",
+			"zh-cn": "Call of Duty Warzone Stats"
+		},
+		"desc": {
+			"en": "cod_warzone_stats",
+			"de": "cod_warzone_stats",
+			"ru": "cod_warzone_stats",
+			"pt": "cod_warzone_stats",
+			"nl": "cod_warzone_stats",
+			"fr": "cod_warzone_stats",
+			"it": "cod_warzone_stats",
+			"es": "cod_warzone_stats",
+			"pl": "cod_warzone_stats",
+			"zh-cn": "cod_warzone_stats"
+		},
+		"authors": [
+			"CyDFect <haraldkrabs@googlemail.com>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "cod_warzone_stats.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/CyDFect/ioBroker.cod_warzone_stats/master/admin/cod_warzone_stats.png",
+		"readme": "https://github.com/CyDFect/ioBroker.cod_warzone_stats/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "misc-data",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"materializeTab": true,
+		"adminTab": {
+			"singleton": true,
+			"name": {
+				"en": "Call of Duty Warzone Stats",
+				"de": "Call of Duty Warzone Stats",
+				"ru": "Call of Duty Warzone Stats",
+				"pt": "Call of Duty Warzone Stats",
+				"nl": "Call of Duty Warzone Stats",
+				"fr": "Call of Duty Warzone Stats",
+				"it": "Call of Duty Warzone Stats",
+				"es": "Call of Duty Warzone Stats",
+				"pl": "Call of Duty Warzone Stats",
+				"zh-cn": "Call of Duty Warzone Stats"
+			},
+			"link": "",
+			"fa-icon": "info"
+		},
+		"supportCustoms": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"selPlatform": "battle",
+		"intPoll": "60"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
